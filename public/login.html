@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RAMBULL</title>
+    <script defer src="/__/firebase/5.5.3/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.5.3/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.5.3/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.5.3/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.5.3/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <LINK REL="stylesheet" TYPE="text/css" HREF="style/styleResposive.css">
+    <link href="https://fonts.googleapis.com/css?family=Stardos+Stencil:700" rel="stylesheet">
+    <script type="text/javascript" src="module/main.js"></script>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Empieza Header -->
+        <header>
+            <h1><strong>RAMBULL</strong></h1>
+            <h2>Cerveza Artesanal</h2>
+        </header>
+        <!-- Finaliza Header -->
+
+        <!-- Empieza Menu -->
+        <nav>
+            <ul>
+                <li><a href="#">Quienes Somos</a></li>
+                <li><a href="#">Nuestras Cervezas</a></li>
+                <li><a href="#">Contacto</a></li>
+            </ul>
+        </nav>
+        <!-- Finaliza Menu -->
+
+        <!-- Empieza Seccion de contenido -->
+        <section>
+            <h2>
+                RAMBULL <br>
+                Cerveza Artesanal
+            </h2>
+            <p>
+                OKTOBERFEST 2018
+            </p>
+            <p>
+                Logueate con
+            </p>
+            <nav>
+                <ul>
+                    <li><a onclick="SaveBirra(1)"><img src="img/auth_service_facebook.svg" /></a></li>
+                    <li><a onclick="SaveBirra(2)"><img src="img/auth_service_google.svg" /></a></li>
+                    <li><a onclick="SaveBirra(3)"><img src="img/auth_service_twitter.svg" /></a></li>
+                </ul>
+            </nav>
+        </section>
+        <!-- Finaliza Seccion de contenido -->
+
+        <!-- Empieza barra lateral 
+			<nav>
+				<ul>
+					<li><a href="#">Quiero mi RAMBULL</a></li>					
+				</ul>
+			</nav>
+		<aside>
+			<h2>Barra lateral</h2>
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis porttitor varius. Cras et turpis et eros
+				porta imperdiet eget a elit. Pellentesque eu ullamcorper urna. Vestibulum ante ipsum primis in faucibus orci luctus
+				et ultrices posuere cubilia Curae; Fusce non iaculis urna. Pellentesque vulputate felis et mauris dignissim cursus.
+				Suspendisse fringilla malesuada est, a fermentum erat molestie sit amet. Etiam quis ex eget sapien suscipit
+				facilisis. Curabitur bibendum eget dolor in rhoncus. Fusce vehicula diam ut erat mollis malesuada. Pellentesque
+				massa sapien, eleifend sed quam at, euismod maximus quam.</p>
+		</aside>
+		Finaliza barra lateral -->
+
+        <!-- Empieza pie de pagina <footer>
+			Rambull APP
+		</footer> -->
+
+        <!-- Empieza pie de pagina -->
+
+    </div>
+</body>
+
+</html>
