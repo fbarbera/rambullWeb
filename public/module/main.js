@@ -3,7 +3,7 @@ function SaveBirra(loginType){
     var database = firebase.database();
     //Facebook
     if (loginType==1){
-        var provider = firebase.auth.FacebookAuthProvider();
+        var provider = new firebase.auth.FacebookAuthProvider();
 
         firebase.auth().signInWithPopup(provider).then(function(result) {
             // This gives you a Facebook Access Token. You can use it to access the Facebook API.
@@ -25,8 +25,8 @@ function SaveBirra(loginType){
 
     //Google
     if (loginType==2){
-        var provider = firebase.auth.GoogleAuthProvider();
-        
+        var provider = new firebase.auth.GoogleAuthProvider();
+        firebase.auth().useDeviceLanguage();
         firebase.auth().signInWithPopup(provider).then(function(result) {
             // This gives you a Google Access Token. You can use it to access the Google API.
             var token = result.credential.accessToken;
