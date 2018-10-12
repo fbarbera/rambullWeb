@@ -9,15 +9,15 @@ Michel Haddad - Internetedadinero.com | 2017
   font-size:1em;
   font-family: 'Stardos Stencil';
   font-size: 15px;
-  background-color: #333
+  background-color: black
 }
 header {
   text-align:center;
-  border: 1px solid #ccc;
-  background: #fafafa
+  border: 1px solid black;
+  color: whitesmoke
 }
 a {
-  color: #333;
+  color:whitesmoke;
   text-decoration: none;
 }
 section,aside {
@@ -26,9 +26,9 @@ section,aside {
 }
 section {
   float: left;
-  width: 70%;
-  background: #fafafa;
-  border: 1px solid #ccc;
+  width: 70%;  
+  border: 1px solid black;
+  color: whitesmoke
 }
 aside {
   float: right;
@@ -38,7 +38,7 @@ aside {
 }
 nav {
   overflow: hidden;
-  background:#444;
+  background:black;
   margin-top: 0.5%;
   margin-bottom: 0.5%;
 }
@@ -55,7 +55,7 @@ nav ul li {
   float: none;
   padding:3px 10px;
   margin:2px;
-  background:#fafafa;
+  background:black;
   -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
 }
 nav ul li:hover {
@@ -90,6 +90,13 @@ button{
   width: 100%;
   border-radius: 3px;
    -moz-border-radius:3px;-webkit-border-radius:3px;-o-border-radius:3px;border-radius:3px;
+}
+
+.linkContent{
+  border: whitesmoke;
+    border-radius: 6px;
+    border-style: groove;
+    text-align: -webkit-center
 }
  
 /* pantalla maximo 980px */
